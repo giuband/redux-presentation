@@ -1,0 +1,14 @@
+const CalendarRow = ({ user, userData }) => (
+  <div>
+    {user}: <DayPicker daysPicked={userData} />
+  </div>
+)
+
+const mapStateToProps = (state, ownProps) => {
+  const { user } = ownProps;
+  const { data } = state;
+  return {
+    user,
+    userData: data[user]
+  }
+}

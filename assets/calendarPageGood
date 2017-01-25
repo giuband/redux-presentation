@@ -1,0 +1,7 @@
+const CalendarPage = ({ users }) => (
+  <div>
+  {users.map(user => <CalendarRow user={user} />)}
+  </div>
+)
+
+const mapStateToProps = (state) => ({ users: state.users });

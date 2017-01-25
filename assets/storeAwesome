@@ -1,0 +1,15 @@
+const store = {
+  users: ['giuseppe', 'david', 'yann', /*... */],
+  days: [1, 2, 3, 4, 5, 6, /*... */, 29, 30, 31],
+  data: {
+    'giuseppe-22': true,
+    'giuseppe-23': true,
+    'giuseppe-24': true,
+    'david-2': true,
+    'david-3': true,
+    'yann-10': true,
+    'yann-11': true,
+    'yann-12': true,
+    // ...
+  }
+};

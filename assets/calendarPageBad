@@ -1,0 +1,7 @@
+const CalendarPage = ({ data }) => (
+  <div>
+  {Object.keys(data).map(user => <CalendarRow user={user} pickedDays={data[user]} />)}
+  </div>
+)
+
+const mapStateToProps = (state) => ({ data: state.data });
