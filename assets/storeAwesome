@@ -1,6 +1,6 @@
 const store = {
   users: ['giuseppe', 'david', 'yann', /*... */],
-  days: [1, 2, 3, 4, 5, 6, /*... */, 29, 30, 31],
+  days: [1, 2, 3, 4, 5, 6, /*... */, 29, 30],
   data: {
     'giuseppe-22': true,
     'giuseppe-23': true,

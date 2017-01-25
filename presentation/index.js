@@ -4,8 +4,6 @@ import React from "react";
 // Import Spectacle Core tags
 import {
   Appear,
-  BlockQuote,
-  Cite,
   CodePane,
   Deck,
   Fill,
@@ -13,10 +11,7 @@ import {
   Image,
   Layout,
   Link,
-  ListItem,
-  List,
   Markdown,
-  Quote,
   Slide,
   Spectacle,
   Text
@@ -29,8 +24,8 @@ import preloader from "spectacle/lib/utils/preloader";
 import createTheme from "spectacle/lib/themes/default";
 
 // Import custom component
-import Interactive from "../assets/interactive";
-import BadApp from '../assets/BadApp';
+import BadApp from "../assets/BadApp";
+import GoodApp from "../assets/GoodApp";
 
 // Require CSS
 require("normalize.css");
@@ -194,6 +189,9 @@ Each row is subscribed to just its corresponding data
 => **Changes in the data of a user will cause a re-render of only its corresponding row**
             `}
             </Markdown>
+          </Slide>
+          <Slide transition={["slide"]}>
+            <GoodApp />
           </Slide>
           <Slide transition={["slide"]}>
             <Heading size={2} textColor="white">Gotcha #1</Heading>

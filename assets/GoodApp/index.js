@@ -6,7 +6,7 @@ import "../index.css";
 
 const store = configureStore();
 
-export default class BadApp extends React.Component {
+export default class GoodApp extends React.Component {
   render() {
     return (
       <div className="redux-app">

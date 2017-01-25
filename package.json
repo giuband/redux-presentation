@@ -1,7 +1,7 @@
 {
-  "name": "spectacle-boilerplate",
+  "name": "high-performance-redux-presentation",
   "version": "1.0.1",
-  "description": "ReactJS Powered Presentation Framework",
+  "description": "How to write performant apps with react",
   "main": "lib/index.js",
   "scripts": {
     "clean": "rimraf dist",
@@ -10,12 +10,15 @@
     "deploy": "npm run clean & npm run build && surge -p .",
     "start": "cross-env NODE_ENV=development node server.js"
   },
-  "author": "",
+  "author": "Giuseppe Bandiera",
   "license": "MIT",
   "dependencies": {
+    "Faker": "^0.7.2",
     "normalize.css": "3.0.3",
     "react": "^15.2.1",
     "react-dom": "^15.2.1",
+    "react-redux": "^5.0.2",
+    "redux": "^3.6.0",
     "spectacle": "^1.0.0"
   },
   "devDependencies": {
